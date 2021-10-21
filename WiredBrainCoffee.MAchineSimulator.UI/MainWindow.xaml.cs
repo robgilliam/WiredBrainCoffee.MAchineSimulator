@@ -12,8 +12,10 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WiredBrainCoffee.EventHub.Sender;
+using WiredBrainCoffee.MachineSimulator.UI.ViewModel;
 
-namespace WiredBrainCoffee.MAchineSimulator.UI
+namespace WiredBrainCoffee.MachineSimulator.UI
 {
   /// <summary>
   /// Interaction logic for MainWindow.xaml
@@ -23,6 +25,7 @@ namespace WiredBrainCoffee.MAchineSimulator.UI
     public MainWindow()
     {
       InitializeComponent();
+      DataContext = new MainViewModel(new CoffeeMachineDataSender());
     }
   }
 }

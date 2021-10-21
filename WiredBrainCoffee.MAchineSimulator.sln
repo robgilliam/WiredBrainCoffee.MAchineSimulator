@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiredBrainCoffee.MAchineSimulator.UI", "WiredBrainCoffee.MAchineSimulator.UI\WiredBrainCoffee.MAchineSimulator.UI.csproj", "{61972C89-59C9-43D8-86CA-A82109D6D5BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiredBrainCoffee.MachineSimulator.UI", "WiredBrainCoffee.MachineSimulator.UI\WiredBrainCoffee.MachineSimulator.UI.csproj", "{61972C89-59C9-43D8-86CA-A82109D6D5BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiredBrainCoffee.EventHub.Sender", "WiredBrainCoffee.EventHub.Sender\WiredBrainCoffee.EventHub.Sender.csproj", "{65C074AE-3C1B-4DA4-A8B3-1A568A92EB9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{61972C89-59C9-43D8-86CA-A82109D6D5BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61972C89-59C9-43D8-86CA-A82109D6D5BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61972C89-59C9-43D8-86CA-A82109D6D5BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65C074AE-3C1B-4DA4-A8B3-1A568A92EB9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65C074AE-3C1B-4DA4-A8B3-1A568A92EB9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65C074AE-3C1B-4DA4-A8B3-1A568A92EB9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65C074AE-3C1B-4DA4-A8B3-1A568A92EB9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
